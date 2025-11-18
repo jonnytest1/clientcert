@@ -1,0 +1,21 @@
+[req]
+distinguished_name = req_distinguished_name
+[req_distinguished_name]
+countryName = Country Name (2 letter code)
+countryName_default = US
+stateOrProvinceName = State or Province Name (full name)
+stateOrProvinceName_default = Example State
+localityName = Locality Name (eg, city)
+localityName_default = Example City
+organizationalUnitName = Organizational Unit Name (eg, section)
+organizationalUnitName_default = Root CA
+organizationName = Organization Name (eg, company)
+organizationName_default = Example Organization
+commonName = localhost
+commonName_default = Root CA
+
+[v3_ca]
+basicConstraints = critical,CA:TRUE
+keyUsage = digitalSignature, cRLSign, keyCertSign
+subjectKeyIdentifier = hash
+authorityKeyIdentifier = keyid:always,issuer:always

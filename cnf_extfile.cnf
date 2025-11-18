@@ -1,0 +1,5 @@
+subjectAltName = DNS:localhost
+authorityKeyIdentifier = keyid,issuer
+basicConstraints = CA:FALSE
+keyUsage = digitalSignature, keyEncipherment
+extendedKeyUsage=serverAuth
