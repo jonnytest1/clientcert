@@ -4,6 +4,4 @@
 
 4. opening https://localhost in browser should show client selection popup and then look like 
 
-![response](./client-crt-request.png)
-
-
+![response](client-crt-request.png)
